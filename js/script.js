@@ -1,4 +1,4 @@
-var argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber, x;
+var argComputerMove, argMoveId, argPlayerMove, computerMove, playerMove, randomNumber, x;
 
 let argButtonName;
 const buttonRock = document.getElementById('button-rock');
@@ -40,7 +40,6 @@ function buttonClicked(argButtonName) {
   }
 
   playerMove = argButtonName;
-  console.log('wybór ruchu gracza to: ' + playerInput);
   console.log('ruch gracza to: ' + playerMove);
   randomNumber = Math.floor(Math.random() * 3 + 1);
   console.log('wylosowana liczba to: ' + randomNumber);
