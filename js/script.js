@@ -1,4 +1,4 @@
-var argComputerMove, argMoveId, argPlayerMove, computerMove, playerMove, randomNumber;
+var argComputerMove, argMoveId, argPlayerMove, computerMove, playerMove;
 
 let argButtonName;
 const buttonRock = document.getElementById('button-rock');
@@ -39,6 +39,7 @@ function buttonClicked(argButtonName) {
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
   }
 
+  let randomNumber;
   playerMove = argButtonName;
   console.log('ruch gracza to: ' + playerMove);
   randomNumber = Math.floor(Math.random() * 3 + 1);
