@@ -1,4 +1,4 @@
-var argComputerMove, argMoveId, argPlayerMove, computerMove, playerMove, randomNumber, x;
+var argComputerMove, argMoveId, argPlayerMove, computerMove, playerMove, randomNumber;
 
 let argButtonName;
 const buttonRock = document.getElementById('button-rock');
