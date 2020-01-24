@@ -1,13 +1,15 @@
-var argComputerMove, argPlayerMove, computerMove, playerMove;
-
 let argButtonName;
-const buttonRock = document.getElementById('button-rock');
-const buttonPaper = document.getElementById('button-paper');
-const buttonScissors = document.getElementById('button-scissors');
+const buttonRock = document.getElementById('button-rock'),
+      buttonPaper = document.getElementById('button-paper'),
+      buttonScissors = document.getElementById('button-scissors');
 
 function buttonClicked(argButtonName) {
-  let argMoveId;
-  let randomNumber;
+  let argMoveId,
+      randomNumber,
+      argComputerMove,
+      argPlayerMove,
+      computerMove,
+      playerMove;
 
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
