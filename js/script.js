@@ -38,7 +38,7 @@ function buttonClicked(argButtonName) {
     } else {
       printMessage('You lose :(');
     }
-    printMessage('Ive played ' + argComputerMove + ', and You ' + argPlayerMove);
+    printMessage('I\'ve played ' + argComputerMove + ', and You ' + argPlayerMove);
   }
 
   playerMove = argButtonName;
